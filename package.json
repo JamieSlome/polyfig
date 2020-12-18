@@ -21,6 +21,7 @@
   "homepage": "https://github.com/JamieSlome/polyfig#readme",
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "husky": "^4.3.6"
   },
   "husky": {
