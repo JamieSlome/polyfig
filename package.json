@@ -1,33 +1,37 @@
 {
-  "name": "polyfig",
-  "version": "0.0.0",
-  "description": "A package with a great name, but no great meaning; yet.",
-  "main": "index.js",
-  "scripts": {
-    "test": "npm run test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JamieSlome/polyfig.git"
-  },
-  "keywords": [
-    "polyfig"
-  ],
-  "author": "Jamie Slome",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JamieSlome/polyfig/issues"
-  },
-  "homepage": "https://github.com/JamieSlome/polyfig#readme",
-  "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "husky": "^4.3.6"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo A retired magic elf is checking all commits...",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    "name": "polyfig",
+    "version": "0.0.0",
+    "description": "A package with a great name, but no great meaning; yet.",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JamieSlome/polyfig.git"
+    },
+    "keywords": [
+        "polyfig"
+    ],
+    "author": "Jamie Slome",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JamieSlome/polyfig/issues"
+    },
+    "homepage": "https://github.com/JamieSlome/polyfig#readme",
+    "devDependencies": {
+        "@commitlint/cli": "^11.0.0",
+        "@commitlint/config-conventional": "^11.0.0",
+        "eslint": "^7.16.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-config-prettier": "^7.1.0",
+        "eslint-plugin-prettier": "^3.3.0",
+        "husky": "^4.3.6"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "echo A retired magic elf is checking all commits...",
+            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+        }
     }
-  }
 }
