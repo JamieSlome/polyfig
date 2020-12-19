@@ -1,6 +1,6 @@
 {
     "name": "polyfig",
-    "version": "0.0.0",
+    "version": "0.0.1-0",
     "description": "A package with a great name, but no great meaning; yet.",
     "main": "index.js",
     "scripts": {
