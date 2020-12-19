@@ -4,7 +4,7 @@
     "description": "A package with a great name, but no great meaning; yet.",
     "main": "index.js",
     "scripts": {
-        "test": "npm run test"
+        "test": "mocha ./test"
     },
     "repository": {
         "type": "git",
@@ -13,7 +13,7 @@
     "keywords": [
         "polyfig"
     ],
-    "author": "Jamie Slome",
+    "author": "Jamie Slome <jamie@418sec.com>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/JamieSlome/polyfig/issues"
@@ -22,11 +22,13 @@
     "devDependencies": {
         "@commitlint/cli": "^11.0.0",
         "@commitlint/config-conventional": "^11.0.0",
+        "chai": "^4.2.0",
         "eslint": "^7.16.0",
         "eslint-config-google": "^0.14.0",
         "eslint-config-prettier": "^7.1.0",
         "eslint-plugin-prettier": "^3.3.0",
-        "husky": "^4.3.6"
+        "husky": "^4.3.6",
+        "mocha": "^8.2.1"
     },
     "husky": {
         "hooks": {
