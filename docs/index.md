@@ -1,4 +1,4 @@
-<p align="center"><img src="./img/logo.png" height="69"></p>
+<p align="center"><img src="../img/logo.png" height="69"></p>
 <br />
 <p align="center">
 <b>A package with a great name, but no great meaning; yet.</b>
