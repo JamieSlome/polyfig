@@ -1,15 +1,7 @@
+const getEasterEgg = require("./util/getEasterEgg");
+const removeString = require("./util/removeString");
+
 module.exports = {
-    /**
-     * Summary: Gets repository easter egg
-     *
-     * Description: This method returns the repository easter egg
-     *
-     * @since      0.0.1-0
-     * @access     public
-     *
-     * @return value: A package with a great name, but no great meaning; yet.
-     */
-    getEasterEgg: function () {
-        return "A package with a great name, but no great meaning; yet.";
-    }
+    getEasterEgg,
+    removeString
 };
