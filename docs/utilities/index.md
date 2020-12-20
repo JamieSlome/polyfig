@@ -8,7 +8,7 @@
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/JamieSlome/polyfig?color=%23301934">
 
 <h4 align="center"><b>
-• <a href="https://jamieslome.github.io/polyfig/">Docs</a> •
+• <a href="https://jamieslome.github.io/polyfig/">Docs</a> • <a href="https://jamieslome.github.io/polyfig/utilities/">Utils</a> •
 </b></h4>
 </p>
 
