@@ -15,3 +15,7 @@
 <br />
 
 # Utilities
+
+<a href="/getEasterEgg"><code><br />getEasterEgg();<br /><br /></code></a>
+
+<a href="/removeString"><code><br />removeString(item, otherItem);<br /><br /></code></a>
