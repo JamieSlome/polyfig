@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/JamieSlome/polyfig/raw/main/img/logo.png" height="69"></p>
+<p align="center"><a href="https://www.npmjs.com/package/polyfig"><img src="https://github.com/JamieSlome/polyfig/raw/main/img/logo.png" height="69"></a></p>
 <p align="center">
 <b>A package with a great name, but no great meaning; yet.</b>
 <br />
