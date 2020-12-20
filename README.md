@@ -15,7 +15,7 @@
 
 <br />
 
-## Install
+# Install
 
 <br />
 
