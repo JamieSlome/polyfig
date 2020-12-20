@@ -18,5 +18,4 @@
 
 <a href="/polyfig/utilities/getEasterEgg"><code><br />getEasterEgg();<br /><br /></code></a> - _This method returns the repository easter egg_
 
-<a href="/polyfig/utilities/removeString"><code><br />removeString(item, otherItem);<br /><br /></code></a> - _This method removes all occurrences of a
- * specific `string` from another `string`_
+<a href="/polyfig/utilities/removeString"><code><br />removeString(item, otherItem);<br /><br /></code></a> - _This method removes all occurrences of a specific `string` from another `string`_
