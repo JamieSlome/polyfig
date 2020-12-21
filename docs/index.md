@@ -16,7 +16,7 @@ Coming soon...
 
 <p align="center">
 <b>
-<code style="background-color:black; font-color: white;">
+<code style="background-color:black; color: white;">
 $ npm install polyfig
 </code>
 </b>
