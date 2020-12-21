@@ -1,7 +1,7 @@
 {
     "name": "polyfig",
     "version": "1.0.0",
-    "description": "A package with a great name, but no great meaning; yet.",
+    "description": "A simple JavaScript utilities library",
     "main": "index.js",
     "scripts": {
         "test": "mocha ./test"
