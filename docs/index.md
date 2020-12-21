@@ -8,17 +8,7 @@
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/JamieSlome/polyfig?color=%23301934">
 
 <h4 align="center"><b>
-• <a href="https://jamieslome.github.io/polyfig/">Docs</a> • <a href="https://jamieslome.github.io/polyfig/utilities/">Utilities</a> •
+Docs - coming soon...
+<br />
 </b></h4>
 </p>
-
-<br />
-
-# Install
-
-To install `polyfig`, run:
-
-```bash
-$ npm install polyfig # local installation
-$ npm install -g polyfig # global installation
-```
