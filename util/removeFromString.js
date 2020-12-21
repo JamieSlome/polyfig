@@ -5,7 +5,7 @@
  * Description - This method removes
  * all occurrences of *string* `y` from *string* `x`
  *
- * @name removeFrom
+ * @name removeFromString
  *
  * @param {string} x - string
  * @param {string} y - string
