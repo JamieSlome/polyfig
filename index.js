@@ -1,7 +1,5 @@
-const getEasterEgg = require("./util/getEasterEgg");
-const removeString = require("./util/removeString");
+const removeFrom = require("./util/removeFrom");
 
 module.exports = {
-    getEasterEgg,
-    removeString
+    removeFrom
 };

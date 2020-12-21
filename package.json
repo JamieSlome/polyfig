@@ -1,7 +1,7 @@
 {
     "name": "polyfig",
     "version": "1.0.0",
-    "description": "A simple JavaScript utilities library",
+    "description": "A simple JavaScript utility library",
     "main": "index.js",
     "scripts": {
         "test": "mocha ./test"

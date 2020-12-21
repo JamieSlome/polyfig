@@ -4,32 +4,16 @@ const expect = require("chai").expect;
 require("chai").should();
 
 describe("polyfig", function () {
-    describe("getEasterEgg", function () {
+    describe("removeFrom", function () {
         it("should exist as a method", function () {
-            expect(polyfig.getEasterEgg).to.exist;
-        });
-
-        it("should get the easter egg", function () {
-            const outcome = polyfig.getEasterEgg();
-            outcome.should.equal(
-                "A package with a great name, but no great meaning; yet."
-            );
-        });
-    });
-
-    describe("removeString", function () {
-        it("should exist as a method", function () {
-            expect(polyfig.removeString).to.exist;
+            expect(polyfig.removeFrom).to.exist;
         });
 
         it("should remove all occurrences of a string from another", function () {
-            const item = "polyfig";
-            const otherItem =
-                "polyfig is a package with a great name, but no great meaning; yet.";
-            const outcome = polyfig.removeString(item, otherItem);
-            outcome.should.equal(
-                " is a package with a great name, but no great meaning; yet."
-            );
+            const x = "polyfig is a simple JavaScript utility library";
+            const y = "polyfig";
+            const outcome = polyfig.removeFrom(x, y);
+            outcome.should.equal(" is a simple JavaScript utility library");
         });
     });
 });

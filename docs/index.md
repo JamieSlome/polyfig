@@ -1,6 +1,6 @@
 <p align="center"><a href="https://www.npmjs.com/package/polyfig"><img src="https://github.com/JamieSlome/polyfig/raw/main/img/logo.png" height="69"></a></p>
 <p align="center">
-<b>A simple JavaScript utilities library</b>
+<b>A simple JavaScript utility library</b>
 <br />
 <br />
 <a href="https://www.npmjs.com/package/polyfig"><img alt="npm" src="https://img.shields.io/npm/v/polyfig?color=%23301934"></a>
