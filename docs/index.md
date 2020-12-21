@@ -9,7 +9,6 @@
 
 <h4 align="center"><b>
 Coming soon...
-<br />
 </b></h4>
 
 <br />
