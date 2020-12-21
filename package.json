@@ -11,7 +11,10 @@
         "url": "git+https://github.com/JamieSlome/polyfig.git"
     },
     "keywords": [
-        "polyfig"
+        "polyfig",
+        "javascript",
+        "simple",
+        "utilities"
     ],
     "author": "Jamie Slome <jamie@418sec.com>",
     "license": "MIT",
