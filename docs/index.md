@@ -8,7 +8,17 @@
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/JamieSlome/polyfig?color=%23301934">
 
 <h4 align="center"><b>
-Docs - coming soon...
+Coming soon...
 <br />
 </b></h4>
+
+<br />
+
+<p align="center">
+<b>
+<code style="background-color:black; font-color: white;">
+$ npm install polyfig
+</code>
+</b>
+
 </p>

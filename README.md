@@ -14,11 +14,11 @@
 
 <br />
 
-# Install
+<p align="center">
+<b>
+<code style="background-color:black; font-color: white;">
+$ npm install polyfig
+</code>
+</b>
 
-To install `polyfig`, run:
-
-```bash
-$ npm install polyfig # local installation
-$ npm install -g polyfig # global installation
-```
+</p>
