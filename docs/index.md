@@ -7,10 +7,6 @@
 <img alt="NPM" src="https://img.shields.io/npm/l/polyfig?color=%23301934">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/JamieSlome/polyfig?color=%23301934">
 
-<h4 align="center"><b>
-Coming soon...
-</b></h4>
-
 <br />
 
 <p align="center">
