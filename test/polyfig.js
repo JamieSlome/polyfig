@@ -74,4 +74,17 @@ describe("polyfig", function () {
             outcome.should.equal(false);
         });
     });
+
+    describe("capitalise", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.capitalise).to.exist;
+        });
+
+        it("should capitalise a string", function () {
+            const x = "polyfig";
+            const outcome = polyfig.capitalise(x);
+
+            outcome.should.equal("Polyfig");
+        });
+    });
 });

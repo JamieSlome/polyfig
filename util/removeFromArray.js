@@ -12,7 +12,7 @@
  *
  * @access     public
  *
- * @return `x` with all of specific item `y` removed
+ * @return     {(array|Error)} `x` with all of specific item `y` removed
  */
 
 module.exports = (x, y) => {

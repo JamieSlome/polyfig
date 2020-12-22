@@ -11,7 +11,7 @@
  *
  * @access     public
  *
- * @return     {(boolean|Error)} true/false | Error
+ * @return     {(boolean|Error)} `true` or `false`
  */
 
 module.exports = (x) => {

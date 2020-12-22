@@ -12,7 +12,7 @@
  *
  * @access     public
  *
- * @return `x` with all occurrences of `y` removed
+ * @return     {(string|Error)} `x` with all occurrences of `y` removed
  */
 
 module.exports = (x, y) => {
