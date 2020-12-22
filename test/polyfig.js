@@ -158,4 +158,17 @@ describe("polyfig", function () {
             outcome.should.eqls({ poly: "fig", fig: "poly" });
         });
     });
+
+    describe("sizeOfObject", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.sizeOfObject).to.exist;
+        });
+
+        it("should calculate number of keys in object", function () {
+            const x = { poly: "fig", fig: "poly", foly: "pig" };
+            const outcome = polyfig.sizeOfObject(x);
+
+            outcome.should.equal(3);
+        });
+    });
 });

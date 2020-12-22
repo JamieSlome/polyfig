@@ -7,6 +7,7 @@ const isObjectEmpty = require("./util/isObjectEmpty");
 const isKeyInObject = require("./util/isKeyInObject");
 const sortArrayByKey = require("./util/sortArrayByKey");
 const mergeObjects = require("./util/mergeObjects");
+const sizeOfObject = require("./util/sizeOfObject");
 
 module.exports = {
     removeFromString,
@@ -17,5 +18,6 @@ module.exports = {
     isObjectEmpty,
     isKeyInObject,
     sortArrayByKey,
-    mergeObjects
+    mergeObjects,
+    sizeOfObject
 };
