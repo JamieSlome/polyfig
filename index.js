@@ -5,6 +5,7 @@ const isEmail = require("./util/isEmail");
 const capitalise = require("./util/capitalise");
 const isObjectEmpty = require("./util/isObjectEmpty");
 const isKeyInObject = require("./util/isKeyInObject");
+const sortArrayByKey = require("./util/sortArrayByKey");
 
 module.exports = {
     removeFromString,
@@ -13,5 +14,6 @@ module.exports = {
     isEmail,
     capitalise,
     isObjectEmpty,
-    isKeyInObject
+    isKeyInObject,
+    sortArrayByKey
 };

@@ -122,4 +122,26 @@ describe("polyfig", function () {
             outcome.should.equal(false);
         });
     });
+
+    describe("sortArrayByKey", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.sortArrayByKey).to.exist;
+        });
+
+        it("should order array of objects by key - string", function () {
+            const x = [{ poly: "poly" }, { poly: "fig" }];
+            const y = "poly";
+            const outcome = polyfig.sortArrayByKey(x, y);
+
+            outcome.should.eql([{ poly: "fig" }, { poly: "poly" }]);
+        });
+
+        it("should order array of objects by key - number", function () {
+            const x = [{ poly: 2 }, { poly: 1 }];
+            const y = "poly";
+            const outcome = polyfig.sortArrayByKey(x, y);
+
+            outcome.should.eql([{ poly: 1 }, { poly: 2 }]);
+        });
+    });
 });
