@@ -10,7 +10,6 @@
  * @param {object} x - object
  * @param {string} y - property name
  *
- * @since      1.0.2
  * @access     public
  *
  * @return     {(boolean|Error)} true/false | Error

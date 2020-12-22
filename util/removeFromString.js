@@ -10,7 +10,6 @@
  * @param {string} x - string
  * @param {string} y - string
  *
- * @since      1.0.0
  * @access     public
  *
  * @return `x` with all occurrences of `y` removed

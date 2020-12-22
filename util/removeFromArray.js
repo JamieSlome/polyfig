@@ -10,7 +10,6 @@
  * @param {array} x - array
  * @param {any} y - any
  *
- * @since      1.0.1
  * @access     public
  *
  * @return `x` with all of specific item `y` removed

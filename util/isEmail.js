@@ -9,7 +9,6 @@
  *
  * @param {string} x
  *
- * @since      1.1.0
  * @access     public
  *
  * @return     {(boolean|Error)} true/false | Error
