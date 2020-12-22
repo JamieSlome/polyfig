@@ -75,16 +75,25 @@ describe("polyfig", function () {
         });
     });
 
-    describe("capitalise", function () {
+    describe("isObjectEmpty", function () {
         it("should exist as a method", function () {
-            expect(polyfig.capitalise).to.exist;
+            expect(polyfig.isObjectEmpty).to.exist;
         });
 
-        it("should capitalise a string", function () {
-            const x = "polyfig";
-            const outcome = polyfig.capitalise(x);
+        it("should validate an empty object", function () {
+            const x = {};
+            const outcome = polyfig.isObjectEmpty(x);
 
-            outcome.should.equal("Polyfig");
+            outcome.should.equal(true);
+        });
+
+        it("should invalidate a populated object", function () {
+            const x = {
+                polyfig: "rules"
+            };
+            const outcome = polyfig.isObjectEmpty(x);
+
+            outcome.should.equal(false);
         });
     });
 });
