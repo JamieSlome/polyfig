@@ -4,6 +4,7 @@ const deleteFromObj = require("./util/deleteFromObj");
 const isEmail = require("./util/isEmail");
 const capitalise = require("./util/capitalise");
 const isObjectEmpty = require("./util/isObjectEmpty");
+const isKeyInObject = require("./util/isKeyInObject");
 
 module.exports = {
     removeFromString,
@@ -11,5 +12,6 @@ module.exports = {
     deleteFromObj,
     isEmail,
     capitalise,
-    isObjectEmpty
+    isObjectEmpty,
+    isKeyInObject
 };

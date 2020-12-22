@@ -96,4 +96,30 @@ describe("polyfig", function () {
             outcome.should.equal(false);
         });
     });
+
+    describe("isKeyInObject", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.isKeyInObject).to.exist;
+        });
+
+        it("should validate an existing key", function () {
+            const x = "polyfig";
+            const y = {
+                polyfig: "rules"
+            };
+            const outcome = polyfig.isKeyInObject(x, y);
+
+            outcome.should.equal(true);
+        });
+
+        it("should invalidate a non-existing key", function () {
+            const x = "polyapple";
+            const y = {
+                polyfig: "rules"
+            };
+            const outcome = polyfig.isKeyInObject(x, y);
+
+            outcome.should.equal(false);
+        });
+    });
 });
