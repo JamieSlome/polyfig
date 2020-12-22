@@ -54,4 +54,24 @@ describe("polyfig", function () {
             x.should.eqls({ propTwo: "rules" });
         });
     });
+
+    describe("isEmail", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.isEmail).to.exist;
+        });
+
+        it("should validate a truthy email", function () {
+            const x = "jamie@418sec.com";
+            const outcome = polyfig.isEmail(x);
+
+            outcome.should.equal(true);
+        });
+
+        it("should invalidate a false email", function () {
+            const x = "jamie@418sec..com";
+            const outcome = polyfig.isEmail(x);
+
+            outcome.should.equal(false);
+        });
+    });
 });
