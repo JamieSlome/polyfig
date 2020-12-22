@@ -6,6 +6,7 @@ const capitalise = require("./util/capitalise");
 const isObjectEmpty = require("./util/isObjectEmpty");
 const isKeyInObject = require("./util/isKeyInObject");
 const sortArrayByKey = require("./util/sortArrayByKey");
+const mergeObjects = require("./util/mergeObjects");
 
 module.exports = {
     removeFromString,
@@ -15,5 +16,6 @@ module.exports = {
     capitalise,
     isObjectEmpty,
     isKeyInObject,
-    sortArrayByKey
+    sortArrayByKey,
+    mergeObjects
 };

@@ -128,7 +128,7 @@ describe("polyfig", function () {
             expect(polyfig.sortArrayByKey).to.exist;
         });
 
-        it("should order array of objects by key - string", function () {
+        it("should order array of objects by key with string value", function () {
             const x = [{ poly: "poly" }, { poly: "fig" }];
             const y = "poly";
             const outcome = polyfig.sortArrayByKey(x, y);
@@ -136,12 +136,26 @@ describe("polyfig", function () {
             outcome.should.eql([{ poly: "fig" }, { poly: "poly" }]);
         });
 
-        it("should order array of objects by key - number", function () {
+        it("should order array of objects by key with number value", function () {
             const x = [{ poly: 2 }, { poly: 1 }];
             const y = "poly";
             const outcome = polyfig.sortArrayByKey(x, y);
 
             outcome.should.eql([{ poly: 1 }, { poly: 2 }]);
+        });
+    });
+
+    describe("mergeObjects", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.mergeObjects).to.exist;
+        });
+
+        it("should merge two objects into one object", function () {
+            const x = { poly: "fig" };
+            const y = { fig: "poly" };
+            const outcome = polyfig.mergeObjects(x, y);
+
+            outcome.should.eqls({ poly: "fig", fig: "poly" });
         });
     });
 });
