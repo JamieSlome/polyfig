@@ -8,6 +8,7 @@ const isKeyInObject = require("./util/isKeyInObject");
 const sortArrayByKey = require("./util/sortArrayByKey");
 const mergeObjects = require("./util/mergeObjects");
 const sizeOfObject = require("./util/sizeOfObject");
+const onlyUniqueValues = require("./util/onlyUniqueValues");
 
 module.exports = {
     removeFromString,
@@ -19,5 +20,6 @@ module.exports = {
     isKeyInObject,
     sortArrayByKey,
     mergeObjects,
-    sizeOfObject
+    sizeOfObject,
+    onlyUniqueValues
 };

@@ -171,4 +171,15 @@ describe("polyfig", function () {
             outcome.should.equal(3);
         });
     });
+
+    describe("onlyUniqueValues", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.onlyUniqueValues).to.exist;
+        });
+
+        it("should remove all duplicate values from array", function () {
+            let outcome = polyfig.onlyUniqueValues([1, 2, 3, "1", "3", "2", 1]);
+            outcome.should.eqls([1, 2, 3, "1", "3", "2"]);
+        });
+    });
 });
