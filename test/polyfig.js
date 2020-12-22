@@ -36,4 +36,22 @@ describe("polyfig", function () {
             outcome.should.eql(["1", "3", "1", "3", "1"]);
         });
     });
+
+    describe("deleteFromObj", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.deleteFromObj).to.exist;
+        });
+
+        it("should delete a property from an object", function () {
+            const x = {
+                propOne: "polyfig",
+                propTwo: "rules"
+            };
+            const y = "propOne";
+
+            polyfig.deleteFromObj(x, y);
+
+            x.should.eqls({ propTwo: "rules" });
+        });
+    });
 });
