@@ -3,7 +3,7 @@
         <div>
             <Logo />
             <div class="mt-5">
-                <p class="subtitle">A simple JavaScript utility library</p>
+                <p class="font-semibold">A simple JavaScript utility library</p>
             </div>
             <div class="mt-5 block">
                 <a href="https://www.npmjs.com/package/polyfig">
@@ -24,6 +24,12 @@
                         alt="repo_size"
                         src="https://img.shields.io/github/repo-size/JamieSlome/polyfig?color=%23301934"
                 /></a>
+            </div>
+            <div class="m-8">
+                <code
+                    class="font-semibold text-sm bg-gray-200 border-gray-400 p-1 rounded"
+                    >$ npm install polyfig</code
+                >
             </div>
         </div>
     </div>
@@ -46,10 +52,6 @@ export default {};
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.subtitle {
-    font-weight: 600;
 }
 
 .links {
