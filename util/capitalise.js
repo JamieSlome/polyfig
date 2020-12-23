@@ -10,6 +10,8 @@
  *
  * @access     public
  *
+ * @since 1.2.0
+ *
  * @return     {(string|Error)} `x` with the first letter capitalised
  */
 

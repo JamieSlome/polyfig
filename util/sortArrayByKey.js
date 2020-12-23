@@ -12,6 +12,8 @@
  *
  * @access     public
  *
+ * @since 1.2.0
+ *
  * @return     {(array|Error)} Sorted array `x` by orderable key `y`
  *
  */

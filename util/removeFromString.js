@@ -12,6 +12,8 @@
  *
  * @access     public
  *
+ * @since 1.0.2
+ *
  * @return     {(string|Error)} `x` with all occurrences of `y` removed
  */
 

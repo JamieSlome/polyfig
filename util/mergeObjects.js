@@ -11,6 +11,8 @@
  *
  * @access     public
  *
+ * @since 1.2.0
+ *
  * @return     {(object|Error)} object with contents of `x` and `y`
  */
 

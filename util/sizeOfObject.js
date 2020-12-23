@@ -11,6 +11,8 @@
  *
  * @access     public
  *
+ * @since 1.2.0
+ *
  * @return     {(number|Error)} Number of keys in object
  */
 

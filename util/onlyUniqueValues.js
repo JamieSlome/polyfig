@@ -10,6 +10,8 @@
  *
  * @access     public
  *
+ * @since 1.2.0
+ *
  * @return     {(array|Error)} `array` with only unique values
  */
 

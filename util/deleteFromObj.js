@@ -12,6 +12,8 @@
  *
  * @access     public
  *
+ * @since 1.1.0
+ *
  * @return     {(boolean|Error)} true/false | Error
  */
 

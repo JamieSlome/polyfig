@@ -12,6 +12,8 @@
  *
  * @access     public
  *
+ * @since 1.0.2
+ *
  * @return     {(array|Error)} `x` with all of specific item `y` removed
  */
 
