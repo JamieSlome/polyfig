@@ -2,26 +2,28 @@
     <div class="container">
         <div>
             <Logo />
-            <h1 class="title">
-                docs
-            </h1>
-            <div class="links">
-                <a
-                    href="https://nuxtjs.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="button--green"
-                >
-                    Documentation
-                </a>
-                <a
-                    href="https://github.com/nuxt/nuxt.js"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="button--grey"
-                >
-                    GitHub
-                </a>
+            <div class="mt-5">
+                <p class="subtitle">A simple JavaScript utility library</p>
+            </div>
+            <div class="mt-5 block">
+                <a href="https://www.npmjs.com/package/polyfig">
+                    <img
+                        class="inline-block"
+                        alt="version"
+                        src="https://img.shields.io/npm/v/polyfig?color=%23301934"
+                /></a>
+                <a href="https://en.wikipedia.org/wiki/MIT_License">
+                    <img
+                        class="inline-block"
+                        alt="license"
+                        src="https://img.shields.io/npm/l/polyfig?color=%23301934"
+                /></a>
+                <a href="https://github.com/JamieSlome/polyfig">
+                    <img
+                        class="inline-block"
+                        alt="repo_size"
+                        src="https://img.shields.io/github/repo-size/JamieSlome/polyfig?color=%23301934"
+                /></a>
             </div>
         </div>
     </div>
@@ -46,26 +48,13 @@ export default {};
     text-align: center;
 }
 
-.title {
-    font-family: "Quicksand", "Source Sans Pro", -apple-system,
-        BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-        sans-serif;
-    display: block;
-    font-weight: 300;
-    font-size: 100px;
-    color: #35495e;
-    letter-spacing: 1px;
-}
-
 .subtitle {
-    font-weight: 300;
-    font-size: 42px;
-    color: #526488;
-    word-spacing: 5px;
-    padding-bottom: 15px;
+    font-weight: 600;
 }
 
 .links {
-    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 </style>
