@@ -12,7 +12,7 @@ defaults:
         working-directory: docs/
 
 jobs:
-    cd:
+    docs:
         runs-on: ${{ matrix.os }}
 
         strategy:
