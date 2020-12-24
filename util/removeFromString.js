@@ -1,24 +1,27 @@
 /**
  *
- * Summary - Remove from `x` all of `y`
- *
- * Description - This method removes
- * all occurrences of *string* `y` from *string* `x`
- *
  * @name removeFromString
  *
- * @param {string} x - string
- * @param {string} y - string
- *
- * @access     public
+ * @summary How do you remove a substring from another string?
  *
  * @since 1.0.2
  *
- * @return     {(string|Error)} `x` with all occurrences of `y` removed
+ * @category string
+ *
+ * @param {string} x - String to be reduced
+ * @param {string} y - Remove all instances of
+ *
+ * @return {string} `x` with substrings matching `y` removed
+ *
+ * @example
+ * => polyfig.removeFromString("polyfig polyfig", "fig");
+ * => "poly poly"
  */
 
-module.exports = (x, y) => {
+function removeFromString(x, y) {
     return typeof x === "string" && typeof y === "string"
         ? x.split(y).join("")
         : new Error("Both inputs are not of type string");
-};
+}
+
+module.exports = removeFromString;

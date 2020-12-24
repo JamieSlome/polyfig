@@ -1,23 +1,26 @@
 /**
  *
- * Summary - Calculates number of keys in `object`
- *
- * Description - This method calculates the number of keys
- * in an `object`
- *
  * @name sizeOfObject
  *
- * @param {object} x - object
- *
- * @access     public
+ * @summary How do you calculate the number of properties inside an object?
  *
  * @since 1.2.0
  *
- * @return     {(number|Error)} Number of keys in object
+ * @category Object
+ *
+ * @param {Object} x - Object
+ *
+ * @return {Number} Number of properties in object `x`
+ *
+ * @example
+ * => polyfig.sizeOfObject({"poly": "fig", "fig": "poly"});
+ * => 2
  */
 
-module.exports = (x) => {
+function sizeOfObject(x) {
     return typeof x === "object" && x !== null
         ? Object.keys(x).length
         : new Error("x is not of type object");
-};
+}
+
+module.exports = sizeOfObject;

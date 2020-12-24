@@ -1,24 +1,27 @@
 /**
  *
- * Summary - Remove from *array* `x`, all of specific item `y`
- *
- * Description - This method removes
- * all of specific item of *any* `y` from *array* `x`
- *
  * @name removeFromArray
  *
- * @param {array} x - array
- * @param {any} y - any
- *
- * @access     public
+ * @summary How do you remove a specific element from an array?
  *
  * @since 1.0.2
  *
- * @return     {(array|Error)} `x` with all of specific item `y` removed
+ * @category Array
+ *
+ * @param {Array} x - Array
+ * @param {any} y - Remove all instances of
+ *
+ * @return {Array} `x` with all instances of `y` removed
+ *
+ * @example
+ * => polyfig.removeFromArray(["1","1",2,3], "1");
+ * => [2,3]
  */
 
-module.exports = (x, y) => {
+function removeFromArray(x, y) {
     return Array.isArray(x)
         ? x.filter((item) => item !== y)
         : new Error("x is not of type array");
-};
+}
+
+module.exports = removeFromArray;

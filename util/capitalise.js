@@ -1,22 +1,26 @@
 /**
  *
- * Summary - Capitalise a string, `x`
- *
- * Description - This method capitalises the first letter of a string, `x`
- *
  * @name capitalise
  *
- * @param {string} x
- *
- * @access     public
+ * @summary How do you capitalise the first letter of a string?
  *
  * @since 1.2.0
  *
- * @return     {(string|Error)} `x` with the first letter capitalised
+ * @category string
+ *
+ * @param {string} string To capitalise
+ *
+ * @return {string} Capitalised string
+ *
+ * @example
+ * => polyfig.capitalise("hello");
+ * => "Hello"
  */
 
-module.exports = (x) => {
+function capitalise(x) {
     return typeof x === "string" && x !== null
         ? x.charAt(0).toUpperCase() + x.slice(1)
         : new Error("x is not of type string");
-};
+}
+
+module.exports = capitalise;

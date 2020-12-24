@@ -1,24 +1,27 @@
 /**
  *
- * Summary - Validate if key `x` exists in object `y`
- *
- * Description - This method validates that in object `y`,
- * there exists a key with name `x`
- *
  * @name isKeyInObject
  *
- * @param {object} x - property name
- * @param {string} y - object
- *
- * @access     public
+ * @summary How do you validate that a key or property exists in an object?
  *
  * @since 1.2.0
  *
- * @return     {(boolean|Error)} true/false | Error
+ * @category Object
+ *
+ * @param {Object} x - Object to check for key or property
+ * @param {string} y - Property to validate exists in object
+ *
+ * @return {boolean} `true` or `false`
+ *
+ * @example
+ * => polyfig.isKeyInObject({"poly": "fig"}, "poly");
+ * => true
  */
 
-module.exports = (x, y) => {
+function isKeyInObject(x, y) {
     return typeof y === "object" && y !== null && typeof x === "string"
         ? y.hasOwnProperty(x)
         : new Error("y is not of type object or x is not type string");
-};
+}
+
+module.exports = isKeyInObject;
