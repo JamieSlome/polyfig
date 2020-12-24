@@ -8,7 +8,7 @@
  *
  * @category string
  *
- * @param {string} string To capitalise
+ * @param {string} x - To capitalise
  *
  * @return {string} Capitalised string
  *
