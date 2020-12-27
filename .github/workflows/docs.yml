@@ -30,7 +30,7 @@ jobs:
             - name: Generate Nuxt Content
               run: node ../tools/docToJson.js
 
-            - name: Generate
+            - name: Generate Nuxt SPA
               run: npm run generate
 
             - name: Deploy

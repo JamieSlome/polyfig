@@ -3,7 +3,7 @@ const fs = require("fs");
 (async () => {
     let utilMeta = [];
 
-    await fs.readdirSync("./util").forEach(async (file) => {
+    await fs.readdirSync("../util").forEach(async (file) => {
         const fileContents = await fs.readFileSync(`./util/${file}`, "utf-8");
 
         const code =
