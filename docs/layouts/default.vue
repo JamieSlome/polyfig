@@ -13,7 +13,7 @@
                     placeholder="Try 'Remove a substring from another string'"
                 />
                 <button
-                    class="bg-fig hover:opacity-75 rounded text-white p-2 pl-4 pr-4"
+                    class="bg-fig hover:opacity-75 text-white font-bold py-2 px-4 border-b-4 border-purple-700 hover:border-purple-500 rounded"
                 >
                     <p class="font-semibold text-xs">Search</p>
                 </button>
