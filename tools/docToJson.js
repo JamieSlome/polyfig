@@ -41,7 +41,7 @@ const fs = require("fs");
     });
 
     fs.writeFileSync(
-        "./docs/content/util.json",
+        "../docs/content/util.json",
         JSON.stringify(utilMeta, null, 4)
     );
 })();
