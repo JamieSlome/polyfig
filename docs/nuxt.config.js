@@ -43,7 +43,7 @@ export default {
         [
             "@nuxtjs/fontawesome",
             {
-                icons: [
+                imports: [
                     {
                         set: "@fortawesome/free-solid-svg-icons",
                         icons: ["fas"]
