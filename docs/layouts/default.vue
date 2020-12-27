@@ -21,7 +21,7 @@
         </nav>
         <div class="container pt-16">
             <div>
-                <Logo />
+                <Logo class="w-40" />
                 <div class="mt-5">
                     <p class="font-semibold">
                         A simple JavaScript utility library
