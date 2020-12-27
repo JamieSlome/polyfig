@@ -8,7 +8,7 @@
                     <Logo class="w-40" />
                 </span>
                 <input
-                    class="w-full rounded p-2 text-center italic ml-4 mr-4"
+                    class="w-full rounded p-2 text-center italic font-thin ml-4 mr-4"
                     type="text"
                     placeholder="Try 'Remove a substring from another string'"
                 />
