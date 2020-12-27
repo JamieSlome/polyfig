@@ -39,7 +39,22 @@ export default {
     // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
     buildModules: [
         // https://go.nuxtjs.dev/tailwindcss
-        "@nuxtjs/tailwindcss"
+        "@nuxtjs/tailwindcss",
+        [
+            "@nuxtjs/fontawesome",
+            {
+                icons: [
+                    {
+                        set: "@fortawesome/free-solid-svg-icons",
+                        icons: ["fas"]
+                    },
+                    {
+                        set: "@fortawesome/free-brands-svg-icons",
+                        icons: ["fab"]
+                    }
+                ]
+            }
+        ]
     ],
 
     // Modules (https://go.nuxtjs.dev/config-modules)
