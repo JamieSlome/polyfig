@@ -87,6 +87,11 @@ export default {
                 hid: "og:image:alt",
                 property: "og:image:alt",
                 content: "polyfig | A simple JavaScript utility library"
+            },
+            {
+                hid: "keywords",
+                name: "keywords",
+                content: "vuejs, nuxt, javascript, polyfig, utility, library"
             }
         ],
         link: [
