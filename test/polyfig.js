@@ -178,7 +178,15 @@ describe("polyfig", function () {
         });
 
         it("should remove all duplicate values from array", function () {
-            let outcome = polyfig.onlyUniqueValues([1, 2, 3, "1", "3", "2", 1]);
+            const outcome = polyfig.onlyUniqueValues([
+                1,
+                2,
+                3,
+                "1",
+                "3",
+                "2",
+                1
+            ]);
             outcome.should.eqls([1, 2, 3, "1", "3", "2"]);
         });
     });
@@ -189,12 +197,32 @@ describe("polyfig", function () {
         });
 
         it("should add a new property to an object", function () {
-            let x = {};
-            let y = "poly";
-            let z = ["fig"];
+            const x = {};
+            const y = "poly";
+            const z = ["fig"];
             polyfig.addObjectProperty(x, y, z);
-            let outcome = x;
+            const outcome = x;
             outcome.should.eqls({ poly: ["fig"] });
+        });
+    });
+
+    describe("endsWith", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.endsWith).to.exist;
+        });
+
+        it("should validate that a string ends with a truthy character", function () {
+            const x = "polyfig";
+            const y = "g";
+            const outcome = polyfig.endsWith(x, y);
+            outcome.should.equal(true);
+        });
+
+        it("should invalidate that a string ends with a falsy character", function () {
+            const x = "polyfig";
+            const y = "i";
+            const outcome = polyfig.endsWith(x, y);
+            outcome.should.equal(false);
         });
     });
 });

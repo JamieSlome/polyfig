@@ -10,6 +10,7 @@ const mergeObjects = require("./util/mergeObjects");
 const sizeOfObject = require("./util/sizeOfObject");
 const onlyUniqueValues = require("./util/onlyUniqueValues");
 const addObjectProperty = require("./util/addObjectProperty");
+const endsWith = require("./util/endsWith");
 
 module.exports = {
     removeFromString,
@@ -23,5 +24,6 @@ module.exports = {
     mergeObjects,
     sizeOfObject,
     onlyUniqueValues,
-    addObjectProperty
+    addObjectProperty,
+    endsWith
 };

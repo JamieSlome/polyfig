@@ -82,6 +82,33 @@
     },
     {
         "name": [
+            "endsWith"
+        ],
+        "fileContents": "/**\n *\n * @name endsWith\n *\n * @summary How do you check if a string ends with a particular character?\n *\n * @since 1.4.0\n *\n * @category string\n *\n * @param {string} x - `string` to check\n * @param {string} y - Character to validate as a suffix\n *\n * @return {boolean} `true` or `false`\n *\n * @example\n * => polyfig.endsWith(\"polyfig\", \"g\");\n * => true\n */\n\nfunction endsWith(x, y) {\n    return typeof x === \"string\" && typeof y === \"string\"\n        ? x.indexOf(y, x.length - y.length) !== -1\n        : new Error(\"x or y is not of type string\");\n}\n\nmodule.exports = endsWith;\n",
+        "code": "function endsWith(x, y) {\n    return typeof x === \"string\" && typeof y === \"string\"\n        ? x.indexOf(y, x.length - y.length) !== -1\n        : new Error(\"x or y is not of type string\");\n}\n\nmodule.exports = endsWith;\n",
+        "summary": [
+            "How do you check if a string ends with a particular character?"
+        ],
+        "since": [
+            "1.4.0"
+        ],
+        "category": [
+            "string"
+        ],
+        "params": [
+            "{string} x - `string` to check",
+            "{string} y - Character to validate as a suffix"
+        ],
+        "ret": [
+            "{boolean} `true` or `false`"
+        ],
+        "example": [
+            "polyfig.endsWith(\"polyfig\", \"g\");",
+            "true"
+        ]
+    },
+    {
+        "name": [
             "isEmail"
         ],
         "fileContents": "/**\n *\n * @name isEmail\n *\n * @summary How do you validate an e-mail address?\n *\n * @since 1.2.0\n *\n * @category string\n *\n * @param {string} x - To validate\n *\n * @return {boolean} `true` or `false`\n *\n * @example\n * => polyfig.isEmail(\"jamie418sec.com\");\n * => false\n */\n\nfunction isEmail(x) {\n    return typeof x === \"string\" && x !== null\n        ? /^(([^<>()[\\]\\.,;:\\s@\\\"]+(\\.[^<>()[\\]\\.,;:\\s@\\\"]+)*)|(\\\".+\\\"))@(([^<>()[\\]\\.,;:\\s@\\\"]+\\.)+[^<>()[\\]\\.,;:\\s@\\\"]{2,})$/i.test(\n              x.toLowerCase()\n          )\n        : new Error(\"x is not of type string\");\n}\n\nmodule.exports = isEmail;\n",
