@@ -182,4 +182,19 @@ describe("polyfig", function () {
             outcome.should.eqls([1, 2, 3, "1", "3", "2"]);
         });
     });
+
+    describe("addObjectProperty", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.addObjectProperty).to.exist;
+        });
+
+        it("should add a new property to an object", function () {
+            let x = {};
+            let y = "poly";
+            let z = ["fig"];
+            polyfig.addObjectProperty(x, y, z);
+            let outcome = x;
+            outcome.should.eqls({ poly: ["fig"] });
+        });
+    });
 });

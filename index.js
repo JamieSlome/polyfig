@@ -9,6 +9,7 @@ const sortArrayByKey = require("./util/sortArrayByKey");
 const mergeObjects = require("./util/mergeObjects");
 const sizeOfObject = require("./util/sizeOfObject");
 const onlyUniqueValues = require("./util/onlyUniqueValues");
+const addObjectProperty = require("./util/addObjectProperty");
 
 module.exports = {
     removeFromString,
@@ -21,5 +22,6 @@ module.exports = {
     sortArrayByKey,
     mergeObjects,
     sizeOfObject,
-    onlyUniqueValues
+    onlyUniqueValues,
+    addObjectProperty
 };
