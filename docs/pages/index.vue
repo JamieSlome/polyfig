@@ -8,6 +8,7 @@
                     <Logo class="w-40" />
                 </span>
                 <input
+                    v-model="search"
                     class="w-full rounded p-2 text-center italic font-thin ml-4 mr-4"
                     type="text"
                     placeholder="Try 'Remove a substring from another string'"
@@ -22,7 +23,7 @@
         <div>
             <div
                 class="max-w-screen-lg w-screen mb-10 shadow-inner bg-gray-100"
-                v-for="util in utilities"
+                v-for="util in utils"
                 :key="util"
             >
                 <p
@@ -127,6 +128,24 @@ export default {
         return {
             utilities
         };
+    },
+    data() {
+        return {
+            search: ""
+        };
+    },
+    computed: {
+        utils: function() {
+            const searchTerm = this.search.toLowerCase();
+            return this.utilities.filter(utility => {
+                return (
+                    utility.name[0].toLowerCase().includes(searchTerm) ||
+                    utility.summary[0].toLowerCase().includes(searchTerm) ||
+                    utility.since[0].includes(searchTerm) ||
+                    utility.category[0].toLowerCase().includes(searchTerm)
+                );
+            });
+        }
     }
 };
 </script>
