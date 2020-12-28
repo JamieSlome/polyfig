@@ -14,9 +14,11 @@
                     placeholder="Try 'Remove a substring from another string'"
                 />
                 <button
+                    v-on:click="hidden = hidden ? false : true"
                     class="bg-fig hover:opacity-75 text-white font-bold py-2 px-4 border-b-4 border-purple-700 hover:border-purple-500 rounded"
                 >
-                    <p class="font-semibold text-xs">Search</p>
+                    <p v-if="!hidden" class="font-semibold text-xs">Hide</p>
+                    <p v-else class="font-semibold text-xs">Show</p>
                 </button>
             </div>
         </nav>
@@ -31,7 +33,7 @@
                 >
                     <code>polyfig.{{ util.name[0] }}()</code>
                 </p>
-                <div class="p-6">
+                <div class="p-6" v-if="!hidden">
                     <p class="text-left text-md text-gray-600 mb-1 italic">
                         {{ util.summary[0] }}
                     </p>
@@ -131,7 +133,8 @@ export default {
     },
     data() {
         return {
-            search: ""
+            search: "",
+            hidden: false
         };
     },
     computed: {
