@@ -19,9 +19,74 @@ export default {
                 content: "width=device-width, initial-scale=1"
             },
             {
+                hid: "name",
+                name: "name",
+                content: "polyfig | A simple JavaScript utility library"
+            },
+            {
                 hid: "description",
                 name: "description",
-                content: "A simple JavaScript utility library"
+                content: "polyfig | A simple JavaScript utility library"
+            },
+            {
+                hid: "twitter:title",
+                name: "twitter:title",
+                content: "polyfig | A simple JavaScript utility library"
+            },
+            {
+                hid: "twitter:description",
+                name: "twitter:description",
+                content: "polyfig | A simple JavaScript utility library"
+            },
+            {
+                hid: "twitter:image",
+                name: "twitter:image",
+                content: "/polyfig/icon.png"
+            },
+            {
+                hid: "twitter:image:alt",
+                name: "twitter:image:alt",
+                content: "polyfig | A simple JavaScript utility library"
+            },
+            {
+                hid: "twitter:card",
+                name: "twitter:card",
+                content: "summary_large_image"
+            },
+            {
+                hid: "twitter:url",
+                name: "twitter:url",
+                content: "https://jamieslome.github.io/polyfig/"
+            },
+            {
+                hid: "og:type",
+                property: "og:type",
+                content: "website"
+            },
+            {
+                hid: "og:title",
+                property: "og:title",
+                content: "polyfig | A simple JavaScript utility library"
+            },
+            {
+                hid: "og:url",
+                property: "og:url",
+                content: "https://jamieslome.github.io/polyfig/"
+            },
+            {
+                hid: "og:description",
+                property: "og:description",
+                content: "polyfig | A simple JavaScript utility library"
+            },
+            {
+                hid: "og:image",
+                property: "og:image",
+                content: "/polyfig/icon.png"
+            },
+            {
+                hid: "og:image:alt",
+                property: "og:image:alt",
+                content: "polyfig | A simple JavaScript utility library"
             }
         ],
         link: [
