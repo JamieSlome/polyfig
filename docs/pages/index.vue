@@ -4,7 +4,7 @@
             <div
                 class="max-w-screen-lg w-screen mb-10 shadow-inner bg-gray-100"
                 v-for="util in utilities"
-                :key="util.name"
+                :key="util"
             >
                 <p
                     class="text-left font-hairline p-6 text-white bg-fig hover:font-semibold cursor-pointer sm:text-md lg:text-xl"
