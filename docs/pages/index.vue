@@ -1,5 +1,24 @@
 <template>
     <div class="container">
+        <nav class="bg-gray-800 fixed z-40 w-screen inset-x-0 top-0">
+            <div class="bg-white shadow p-4 flex">
+                <span
+                    class="w-auto flex justify-end items-center text-gray-500 p-2"
+                >
+                    <Logo class="w-40" />
+                </span>
+                <input
+                    class="w-full rounded p-2 text-center italic font-thin ml-4 mr-4"
+                    type="text"
+                    placeholder="Try 'Remove a substring from another string'"
+                />
+                <button
+                    class="bg-fig hover:opacity-75 text-white font-bold py-2 px-4 border-b-4 border-purple-700 hover:border-purple-500 rounded"
+                >
+                    <p class="font-semibold text-xs">Search</p>
+                </button>
+            </div>
+        </nav>
         <div>
             <div
                 class="max-w-screen-lg w-screen mb-10 shadow-inner bg-gray-100"
