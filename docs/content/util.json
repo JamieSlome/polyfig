@@ -1,6 +1,34 @@
 [
     {
         "name": [
+            "addObjectProperty"
+        ],
+        "fileContents": "/**\n *\n * @name addObjectProperty\n *\n * @summary How do you add a key-value pair or new property to an object?\n *\n * @since 1.3.0\n *\n * @category Object\n *\n * @param {Object} x - Object to add new property to\n * @param {string} y - Property name\n * @param {any} z - Property value\n *\n * @return {Object} Provided object with new property added\n *\n * @example\n * => polyfig.addObjectProperty({}, \"poly\", [\"fig\"]);\n * => {\"poly\": [\"fig\"]}\n */\n\nfunction addObjectProperty(x, y, z) {\n    return typeof x === \"object\" && x !== null && typeof y === \"string\"\n        ? (x[y] = z)\n        : new Error(\"x is not of type object or y is not of type string\");\n}\n\nmodule.exports = addObjectProperty;\n",
+        "code": "function addObjectProperty(x, y, z) {\n    return typeof x === \"object\" && x !== null && typeof y === \"string\"\n        ? (x[y] = z)\n        : new Error(\"x is not of type object or y is not of type string\");\n}\n\nmodule.exports = addObjectProperty;\n",
+        "summary": [
+            "How do you add a key-value pair or new property to an object?"
+        ],
+        "since": [
+            "1.3.0"
+        ],
+        "category": [
+            "Object"
+        ],
+        "params": [
+            "{Object} x - Object to add new property to",
+            "{string} y - Property name",
+            "{any} z - Property value"
+        ],
+        "ret": [
+            "{Object} Provided object with new property added"
+        ],
+        "example": [
+            "polyfig.addObjectProperty({}, \"poly\", [\"fig\"]);",
+            "{\"poly\": [\"fig\"]}"
+        ]
+    },
+    {
+        "name": [
             "capitalise"
         ],
         "fileContents": "/**\n *\n * @name capitalise\n *\n * @summary How do you capitalise the first letter of a string?\n *\n * @since 1.2.0\n *\n * @category string\n *\n * @param {string} x - To capitalise\n *\n * @return {string} Capitalised string\n *\n * @example\n * => polyfig.capitalise(\"hello\");\n * => \"Hello\"\n */\n\nfunction capitalise(x) {\n    return typeof x === \"string\" && x !== null\n        ? x.charAt(0).toUpperCase() + x.slice(1)\n        : new Error(\"x is not of type string\");\n}\n\nmodule.exports = capitalise;\n",
