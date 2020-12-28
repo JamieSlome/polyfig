@@ -8,7 +8,7 @@
  *
  * @category Array
  *
- * @param {string} x - Array
+ * @param {Array} x - Array
  *
  * @return {Number} Sum of the number array elements
  *
