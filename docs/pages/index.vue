@@ -106,15 +106,15 @@
                         Example
                     </p>
                 </div>
-                <p
+                <div
                     v-for="example in util.example"
                     :key="example"
-                    class="text-left text-xl p-6 bg-gray-800 "
+                    class="text-left p-6 bg-gray-800"
                 >
-                    <code class="text-base text-white font-thin"
-                        >=> {{ example }}</code
-                    >
-                </p>
+                    <code class="text-white text-xs lg:text-base font-thin">{{
+                        example
+                    }}</code>
+                </div>
             </div>
         </div>
     </div>

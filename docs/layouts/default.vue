@@ -1,6 +1,6 @@
 <template>
     <div class="min-h-full min-w-full">
-        <div class="container pt-16">
+        <div class="container pt-24">
             <div>
                 <Logo class="w-40" />
                 <div class="mt-5">
