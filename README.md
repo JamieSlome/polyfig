@@ -17,7 +17,7 @@ $ npm install polyfig
 <br />
 
 <h4 align="center"><b>
-• <a href="https://jamieslome.github.io/polyfig/">Docs</a> •
+<a href="https://jamieslome.github.io/polyfig/">Docs</a>
 </b></h4>
 </p>
 
