@@ -24,7 +24,9 @@ export default {
                 content: "A simple JavaScript utility library"
             }
         ],
-        link: [{ rel: "icon", type: "image/png", href: "/polyfig/favicon.png" }]
+        link: [
+            { rel: "icon", type: "image/x-icon", href: "/polyfig/favicon.ico" }
+        ]
     },
 
     // Global CSS (https://go.nuxtjs.dev/config-css)
