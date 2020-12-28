@@ -11,6 +11,7 @@ const sizeOfObject = require("./util/sizeOfObject");
 const onlyUniqueValues = require("./util/onlyUniqueValues");
 const addObjectProperty = require("./util/addObjectProperty");
 const endsWith = require("./util/endsWith");
+const sumArray = require("./util/sumArray");
 
 module.exports = {
     removeFromString,
@@ -25,5 +26,6 @@ module.exports = {
     sizeOfObject,
     onlyUniqueValues,
     addObjectProperty,
-    endsWith
+    endsWith,
+    sumArray
 };

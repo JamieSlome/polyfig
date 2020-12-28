@@ -345,5 +345,31 @@
             "polyfig.sortArrayByKey([{ poly: \"poly\" }, { poly: \"fig\" }], \"poly\");",
             "[{ poly: \"fig\" }, { poly: \"poly\" }]"
         ]
+    },
+    {
+        "name": [
+            "sumArray"
+        ],
+        "fileContents": "/**\n *\n * @name sumArray\n *\n * @summary How do you find the sum of an array of numbers?\n *\n * @since 1.4.0\n *\n * @category Array\n *\n * @param {string} x - Array\n *\n * @return {Number} Sum of the number array elements\n *\n * @example\n * => polyfig.sumArray([1,2,3,4]]);\n * => 10\n */\n\nfunction sumArray(x) {\n    return Array.isArray(x) && x !== null\n        ? x.filter((a) => typeof a === \"number\").reduce((a, b) => a + b, 0)\n        : new Error(\"x is not of type array\");\n}\n\nmodule.exports = sumArray;\n",
+        "code": "function sumArray(x) {\n    return Array.isArray(x) && x !== null\n        ? x.filter((a) => typeof a === \"number\").reduce((a, b) => a + b, 0)\n        : new Error(\"x is not of type array\");\n}\n\nmodule.exports = sumArray;\n",
+        "summary": [
+            "How do you find the sum of an array of numbers?"
+        ],
+        "since": [
+            "1.4.0"
+        ],
+        "category": [
+            "Array"
+        ],
+        "params": [
+            "{string} x - Array"
+        ],
+        "ret": [
+            "{Number} Sum of the number array elements"
+        ],
+        "example": [
+            "polyfig.sumArray([1,2,3,4]]);",
+            "10"
+        ]
     }
 ]

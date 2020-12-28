@@ -225,4 +225,16 @@ describe("polyfig", function () {
             outcome.should.equal(false);
         });
     });
+
+    describe("sumArray", function () {
+        it("should exist as a method", function () {
+            expect(polyfig.sumArray).to.exist;
+        });
+
+        it("should sum all array elements of type number", function () {
+            const x = [1, 2, 3, 4, "1", 4, 2, "3"];
+            const outcome = polyfig.sumArray(x);
+            outcome.should.equal(16);
+        });
+    });
 });
