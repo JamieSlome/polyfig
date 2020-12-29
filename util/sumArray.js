@@ -13,7 +13,7 @@
  * @return {Number} Sum of the number array elements
  *
  * @example
- * => polyfig.sumArray([1,2,3,4]]);
+ * => polyfig.sumArray([1,2,3,4]);
  * => 10
  */
 

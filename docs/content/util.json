@@ -204,6 +204,6 @@
         "category": ["Array"],
         "params": ["{Array} x - Array"],
         "ret": ["{Number} Sum of the number array elements"],
-        "example": ["polyfig.sumArray([1,2,3,4]]);", "10"]
+        "example": ["polyfig.sumArray([1,2,3,4]);", "10"]
     }
 ]
