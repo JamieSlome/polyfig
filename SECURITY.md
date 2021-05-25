@@ -10,6 +10,5 @@ These versions of the project are currently being supported with security update
 
 ## Reporting a Vulnerability
 
-To report a vulnerability, please email jamie@418sec.com.
-
+To report a vulnerability, please email...
 
