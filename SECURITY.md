@@ -10,4 +10,6 @@ These versions of the project are currently being supported with security update
 
 ## Reporting a Vulnerability
 
-To report a vulnerability, please disclose through [huntr](https://huntr.dev/bounties/disclose).
+To report a vulnerability, please email jamie@418sec.com.
+
+
