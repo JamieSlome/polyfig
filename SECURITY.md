@@ -1,1 +1,5 @@
-To let the repository confirm zidingz@gmail.com as its security contact.
+# Security Policy
+
+## Reporting a Vulnerability
+
+Please report security issues to `zidingz@gmail.com`
