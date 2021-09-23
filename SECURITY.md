@@ -1,0 +1,1 @@
+To let the repository confirm zidingz@gmail.com as its security contact.
