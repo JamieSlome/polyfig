@@ -1,1 +1,3 @@
 huntr.dev init
+---
+[![huntr](https://cdn.huntr.dev/huntr_security_badge_mono.svg)](https://huntr.dev/bounties/disclose/?target=https://github.com/jamieslome/polyfig)
