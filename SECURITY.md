@@ -1,1 +1,1 @@
-huntr.dev init
+huntr.dev init 2
