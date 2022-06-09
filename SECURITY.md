@@ -1,1 +1,0 @@
-huntr.dev init
