@@ -13,7 +13,7 @@
         "@nuxtjs/axios": "^5.12.2",
         "@nuxtjs/pwa": "^3.0.2",
         "core-js": "^3.6.5",
-        "nuxt": "^3.11.1"
+        "nuxt": "^3.12.4"
     },
     "devDependencies": {
         "@fortawesome/free-brands-svg-icons": "^5.15.1",
